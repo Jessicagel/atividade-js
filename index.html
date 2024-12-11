@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
+</head>
+
+<body class="bg-gray-400">
+
+<div class="flex justify-center items-center py-10 gap-2">
+
+<select class= "rounded-sm text-xl" id="ordenar" >
+    <option value="avaliacao">Por avaliação</option>
+    <option value="preco">Por preço</option>
+</select>
+<select class="rounded-sm text-xl" id="categoria">
+    <option value="masculina">Masculina</option>
+    <option value="feminina">Feminina</option>
+</select>
+<button class="bg-white rounded-sm text-xl">Pesquisar</button>
+
+</div>
+
+<div class="flex justify-center items-center p-20 ">
+<div class="gap-4 flex">
+
+<div class="bg-white">
+    <h2 class="bg-gray-500 flex justify-end rounded-sm">3.4</h2>
+    <img class="h-120 w-100"src="img/51eg55uWmdL._AC_UX679_.jpg" alt="camisa">
+    <p class="bg-gray-500 flex m-2 w-40 rounded-sm">Roupa Feminina</p>
+    <h1>Camisa casual feminina</h1>
+    <h1 class=" text-xl">R$ 100,00</h1>
+    
+</div>
+
+<div class="bg-white">
+    <h2 class="bg-gray-500 flex justify-end rounded-sm">4.2</h2>
+    <img class=" h-120 w-100"src="img/71YXzeOuslL._AC_UY879_.jpg" alt="camisa">
+    <p class="bg-gray-500 flex m-2 w-40 rounded-sm">Roupa Masculino</p>
+    <h1>Camisa fit masculina</h1>
+    <h1 class="text-xl">R$ 130,00</h1>
+    
+</div>
+
+<div class="bg-white">
+    <h2 class="bg-gray-500 flex justify-end rounded-sm">2.1</h2>
+    <img class=" h-120 w-100"src="img/51eg55uWmdL._AC_UX679_.jpg" alt="camisa">
+    <p class="bg-gray-500 flex m-2 w-40 rounded-sm">Roupa Feminina</p>
+    <h1>Camisa casual feminina</h1>
+    <h1 class="text-xl">R$ 110,00</h1>
+    
+</div>
+
+<div class="bg-white">
+    <h2 class="bg-gray-500 flex justify-end rounded-sm">7.4</h2>
+    <img class="h-120 w-100"src="img/81XH0e8fefL._AC_UY879_.jpg" alt="camisa">
+    <p class="bg-gray-500 flex m-2 w-40 rounded-sm">Roupa Feminina</p>
+    <h1>Jaqueta feminina</h1>
+    <h1 class="text-xl">R$ 300,00</h1>
+    
+</div>
+</div>
+</div>
+<script src="https://fakestoreapi.com/products"></script>
+<script src="index.js"></script>
+</body>
+</html>
